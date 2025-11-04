@@ -303,7 +303,7 @@ st.sidebar.header("1. Choose Model Configuration")
 # --- NEW: URLs from your GitHub Release page ---
 # !! REPLACE THESE with your actual GitHub Release URLs !!
 MODEL_URLS = {
-    "Low Epochs (10)": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_sherlock_low.pth
+    "Low Epochs (10)": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_sherlock_low.pth",
     "Medium Epochs (100)": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_sherlock_medium.pth",
     "High Epochs (200 - Final)": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_sherlock_high.pth"
 }
