@@ -439,14 +439,22 @@ MODEL_URLS = {
     "High Epochs (100) - Overfit": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_cpp_high.pth"
 }
 
+model_options = {
+    "Low Epochs (10) - Underfit": "model_cpp_low.pth",
+    "Medium Epochs (50) - Good Fit": "model_cpp_medium.pth",
+    "High Epochs (100) - Overfit": "model_cpp_high.pth"
+}
+# --- END FIX ---
+
+
 model_choice = st.sidebar.selectbox(
     "Select model (based on training duration):",
-    options=list(MODEL_URLS.keys())
+    options=list(MODEL_URLS.keys()) # Dropdown options
 )
 
 # --- NEW: Download and Load the SELECTED Model ---
 # 1. Get the local filename and remote URL
-model_to_load_name = model_options[model_choice] # e.g., "model_cpp_low.pth"
+model_to_load_name = model_options[model_choice] # <-- THIS LINE WILL NOW WORK
 model_url = MODEL_URLS[model_choice]
 
 # 2. Download the model (if it's not already here)
