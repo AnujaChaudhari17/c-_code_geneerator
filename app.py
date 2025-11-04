@@ -434,9 +434,9 @@ st.sidebar.header("1. Choose Model Configuration")
 # --- NEW: URLs from your GitHub Release page ---
 # !! REPLACE THESE with your actual GitHub Release URLs !!
 MODEL_URLS = {
-    "Low Epochs (10) - Underfit": "https://github.com/YOUR_NAME/YOUR_REPO/releases/download/v1.0/model_cpp_low.pth",
-    "Medium Epochs (50) - Good Fit": "https://github.com/YOUR_NAME/YOUR_REPO/releases/download/v1.0/model_cpp_medium.pth",
-    "High Epochs (100) - Overfit": "https://github.com/YOUR_NAME/YOUR_REPO/releases/download/v1.0/model_cpp_high.pth"
+    "Low Epochs (10) - Underfit": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_cpp_low.pth",
+    "Medium Epochs (50) - Good Fit": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_cpp_medium.pth",
+    "High Epochs (100) - Overfit": "https://github.com/AnujaChaudhari17/c-_code_geneerator/releases/download/v1.0/model_cpp_high.pth"
 }
 
 model_choice = st.sidebar.selectbox(
